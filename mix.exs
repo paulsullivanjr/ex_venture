@@ -61,6 +61,7 @@ defmodule ExVenture.Mixfile do
       {:libcluster, "~> 2.1", only: [:dev, :prod]},
       {:logger_file_backend, "~> 0.0.10"},
       {:logster, "~> 0.4"},
+      {:nostrum, git: "https://github.com/Kraigie/nostrum.git"},
       {:phoenix, "~> 1.3.0"},
       {:phoenix_ecto, "~> 3.0"},
       {:phoenix_html, "~> 2.10"},
